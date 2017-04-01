@@ -7,6 +7,13 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 
+/* package aeson-1.0.2.1 */
+#define VERSION_aeson "1.0.2.1"
+#define MIN_VERSION_aeson(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  0 || \
+  (major1) == 1 && (major2) == 0 && (minor) <= 2)
+
 /* package base-4.9.1.0 */
 #define VERSION_base "4.9.1.0"
 #define MIN_VERSION_base(major1,major2,minor) (\
@@ -17,6 +24,13 @@
 /* package servant-0.9.1.1 */
 #define VERSION_servant "0.9.1.1"
 #define MIN_VERSION_servant(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  9 || \
+  (major1) == 0 && (major2) == 9 && (minor) <= 1)
+
+/* package servant-server-0.9.1.1 */
+#define VERSION_servant_server "0.9.1.1"
+#define MIN_VERSION_servant_server(major1,major2,minor) (\
   (major1) <  0 || \
   (major1) == 0 && (major2) <  9 || \
   (major1) == 0 && (major2) == 9 && (minor) <= 1)
@@ -34,6 +48,27 @@
   (major1) <  1 || \
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 2)
+
+/* package transformers-0.5.2.0 */
+#define VERSION_transformers "0.5.2.0"
+#define MIN_VERSION_transformers(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 2)
+
+/* package wai-3.2.1.1 */
+#define VERSION_wai "3.2.1.1"
+#define MIN_VERSION_wai(major1,major2,minor) (\
+  (major1) <  3 || \
+  (major1) == 3 && (major2) <  2 || \
+  (major1) == 3 && (major2) == 2 && (minor) <= 1)
+
+/* package warp-3.2.11.1 */
+#define VERSION_warp "3.2.11.1"
+#define MIN_VERSION_warp(major1,major2,minor) (\
+  (major1) <  3 || \
+  (major1) == 3 && (major2) <  2 || \
+  (major1) == 3 && (major2) == 2 && (minor) <= 11)
 
 /* package directory-1.3.0.0 */
 #define VERSION_directory "1.3.0.0"
@@ -112,7 +147,7 @@
   (major1) == 2 && (major2) <  25 || \
   (major1) == 2 && (major2) == 25 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "back-0.1.0.0-DoSKVZnFS633M7ZzgfjdAS"
+#define CURRENT_COMPONENT_ID "back-0.1.0.0-7YKhG83L72VA823YDHbFJ0"
 
-#define CURRENT_PACKAGE_KEY "back-0.1.0.0-DoSKVZnFS633M7ZzgfjdAS"
+#define CURRENT_PACKAGE_KEY "back-0.1.0.0-7YKhG83L72VA823YDHbFJ0"
 

@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "C:\\git\\yafebe\\back\\.stack-work\\install\\1841c92a\\bin"
-libdir     = "C:\\git\\yafebe\\back\\.stack-work\\install\\1841c92a\\lib\\x86_64-windows-ghc-8.0.2\\back-0.1.0.0-DoSKVZnFS633M7ZzgfjdAS"
+libdir     = "C:\\git\\yafebe\\back\\.stack-work\\install\\1841c92a\\lib\\x86_64-windows-ghc-8.0.2\\back-0.1.0.0-7YKhG83L72VA823YDHbFJ0"
 dynlibdir  = "C:\\git\\yafebe\\back\\.stack-work\\install\\1841c92a\\lib\\x86_64-windows-ghc-8.0.2"
 datadir    = "C:\\git\\yafebe\\back\\.stack-work\\install\\1841c92a\\share\\x86_64-windows-ghc-8.0.2\\back-0.1.0.0"
 libexecdir = "C:\\git\\yafebe\\back\\.stack-work\\install\\1841c92a\\libexec"
