@@ -5,13 +5,15 @@
 
 module App where
 
-import           Control.Monad.Trans.Except
-import           Data.Aeson
-import           GHC.Generics
-import           Network.Wai
-import           Network.Wai.Handler.Warp
-import           Servant
-import           System.IO
+import Control.Monad.Trans.Except
+import Data.Aeson
+import GHC.Generics
+import Network.Wai
+import Servant
+import System.IO
+import Network.Wai.Middleware.Cors (simpleCors)
+import Network.Wai.Handler.Warp (run, setPort, setBeforeMainLoop, runSettings, defaultSettings)
+import Network.Wai.Middleware.RequestLogger (logStdoutDev)
 
 -- * api
 
@@ -34,7 +36,7 @@ run = do
   runSettings settings =<< mkApp
 
 mkApp :: IO Application
-mkApp = return $ serve itemApi server
+mkApp = return $ simpleCors $ serve itemApi server
 
 server :: Server ItemApi
 server =

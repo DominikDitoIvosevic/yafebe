@@ -24,6 +24,8 @@ library
                      , transformers
                      , aeson
                      , wai
+                     , wai-cors
+                     , wai-extra
                      , warp
                      , servant-server
   default-language:    Haskell2010
@@ -34,8 +36,6 @@ executable back-exe
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base
                      , back
-                     , sqlite-simple
-                     , directory
   default-language:    Haskell2010
 
 test-suite back-test
